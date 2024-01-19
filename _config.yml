@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
+title: "Ken Liang's World"
+subtitle: 'Make a better place for you and for me'
+description: 'description'
+keywords: 'keyword'
 author: John Doe
 language: en
 timezone: ''
@@ -97,6 +97,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
+# theme: vita
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
