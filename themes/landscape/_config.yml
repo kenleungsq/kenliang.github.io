@@ -1,0 +1,208 @@
+# Header
+# menu:
+#   Home: /
+#   Archives: /archives
+#   Resume: /2024/01/19/b
+# rss: /atom.xml
+# banner: "images/banner.jpg"
+banner: "images/banner.jpg"
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# # Footer
+# copyright: |-
+#   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
+#   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
+
+# Footer
+copyright:
+# Need help choosing? Please see...
+# https://creativecommons.org/choose/
+# https://choosealicense.com/
+# You can use html like below...
+# copyright: |-
+#   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
+#   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# Widget behavior
+archive_type: 'monthly'
+show_count: false
+recent_posts_limits: 2
+
+# Miscellaneous
+google_analytics:
+gauges_analytics:
+favicon: /favicon.png
+twitter:
+fb_admins:
+fb_app_id:
+
+# valine comment system. https://valine.js.org
+valine:
+  enable: false # if you want use valine,please set this value is true
+  appId:  # leancloud application app id
+  appKey:  # leancloud application app key
+  notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+  verify: false # valine verify code (true/false)
+  pageSize: 10 # comment list page size
+  avatar: mm # gravatar style https://valine.js.org/#/avatar
+  lang: zh-cn # i18n: zh-cn/en
+  placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail,link #valine comment header info
+
+
+# Resume
+title: Reassume
+resume:
+  name: Ken Liang
+  # jobtitle: Your Job Title
+  location:
+    # - key: address
+    #   value: Your Address
+    # - key: postalCode
+    #   value: '0123654'
+    # - key: city
+    #   value: Your City
+    # - key: region
+    #   value: State/Region
+    # - key: countryCode
+    #   value: US
+  contact:
+    # - icon: fa-external-link
+    #   text: your-website.com
+    - icon: fa-envelope
+      text: kenliangsq@foxmail.com
+    # - icon: fa-phone-square
+    #   text: your-phone-num
+  profiles:
+    # - icon: fa-linkedin
+    #   text: your-linkedin
+    #   link: https://linkedin.com/
+    # - icon: fa-github
+    #   text: your-github
+    #   link: https://github.com/
+  overview: '1、 RPA:UiPath, UiPath Orchestrator, Power Platform(Power automate, Power Apps, SharePoint), pyautogui, playwrig
+ht
+2、 Data related:Excel, PowerBI, Python (基础语法、numpy、pandas)
+3、 Program Language:C#, HTML, CSS, JS, VBA, Python
+4、 Website Development:Django, Vue, nodejs
+5、 Database:MySQL, SQL Server, Access
+6、 System:Windows, Linux 基本命令及操作
+7、 Container tech:docker
+8、 Server: Nginx'
+  #   level: beginner, intermediate, advanced, master
+  skills:
+    - title: UiPath
+      level: advanced
+      items: [Studio, Ochestrator]
+    - title: Python
+      level: intermediate
+      items: [Django, Pandas, Playwright]
+    - title: Power Platform
+      level: advanced
+      items: [Power Automate, Power Apps, Share Point, Power BI]
+  experience:
+    - position: Senior Associate IA
+      duration: Oct 2020 - Oct 2023
+      company: 广东凯捷商业数据处理服务有限公司 
+      # website: Content
+      description: '1, Developed diffirrent kinds of RPA by UiPath, Power Automate, Kryon, VBA based on business requirement.
+      2, Developed an EVM website based on Django and VUE2.
+      3, Worked as solution architect for differrent projects.
+      4, Prepared different kinds of project doucments such as PDD and SDD.
+      5, Coached new joiners of different RPA tools and comply with code standard.
+      6, Responsed as a technical SPOC for an engagement. Maintained a SharePoint List and tens of Power Automate
+flows.
+7, Conducted end to end project serveice to customer.
+'
+      hilights: [
+        'Promopted from Process Associate to Senior Associate(3 in 20)',
+        'Presentor of daily share meeting and trainer in daily new techs',
+        'SPOC of an internal customer',
+      ]
+    - position: Data Operation 
+      duration: Apr 2019 - Mar 2020
+      company: 广州宏途教育网络科技有限公司 
+      # website: website.com
+      description: "1, HONEDU is the leading company of providing integrated services in K12 education. It has over 10 branches and 300
+employees in different region. The company serves hundreds of thousands of students in the country keeping them
+efficient and save in school.
+2, Managed kinds of data in BaoKaoDaXue website. There are more than 2700 colleges,1300 majors as well as
+millions
+of student recruitment plan. Collected the data from different source.Cleaned the raw data.Sort out the data. Uploaded
+data to go live.
+3, Exported data from database depend on department's needs.
+4, Created excel formula/vba/daily process automation depend on operational needs."
+      hilights: [
+        'Took over all works in ten days before the resignment of previous owner. Ensured the data providing in the busy
+season',
+        'Optimized the input method of data from paper to eletronic. The speed from raw data to production had been
+improved effectively'
+      ]
+    - position: Financial Officer
+      duration: May 2015 - Oct 2018
+      company: 汇丰环球客户服务（广东）有限公司
+      # website: website.com
+      description: '1, Conducted the CRS&FATCA checking for new to bank customer. Made sure all the documents on file before account
+opening.
+2, Provided CRS&FATCA training for other staff within the department.
+3, Guiding IT staff when building up the automation during streamline project.'
+      hilights: [
+        'Best Performer (5% of the departement)',
+        'Streamline Star',
+      ]
+      # Education
+  education:
+    - institution: South China Agricultural University
+      course: Philosophy
+      duration: Sep 2010 - Jun 2014
+      location: GuangZhou, GuangDong, China
+      # major: Philosophy
+    # - institution: Your Second University
+    #   course: Masters Information Technology
+    #   duration: Aug 2007 - Jun 2011
+    #   location: Ut enim ad minim veniam
+    #   major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+# Showcase your work
+  projects:
+  - title: Resource and Project management webiste devlopment based on Python&VUE2&MySQL
+    description: '1. The foudation of the system is earned value concept
+2. Perform development of a complete function both backend and frontend
+3. perform part database work such of foreign key design and table creation
+4.  perform part of the deployment work such as IIS, nginx, unicom'
+    duration: Apr 2023 - Oct 2023
+    contribution: Developer
+  - title: SPOC of a famous express industry
+    description: '1, Maintain different Power Automate flows(10+)
+2, Maintain a SharePoint list(tens of thousands rows of data)
+3, Estimate the feasibility of new requirement from customer
+4, Develop new Power Automate flows
+5, Regular meeting and Customer Care'
+    duration: Mar 2023 - Oct 2023
+    contribution: Solution Architect and Developer
+# Langguages Known 
+# proficiency: beginner, intermediate, advanced, master, fluent, native speaker
+  languages:
+  - name: Cantonese
+    proficiency: native speaker
+  - name: Mandarin
+    proficiency: fluent
+  - name: English
+    proficiency: intermediate
