@@ -3,7 +3,7 @@ title: PowerBI
 date: 2024-01-29 15:05:55
 tags:
 categories:
-  - [Data, PowerBI]
+  - [Power Platform, PowerBI]
 ---
 
 # 切片联动

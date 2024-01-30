@@ -30,10 +30,10 @@ copyright:
 sidebar: right
 widgets:
 - category
-- tag
-- tagcloud
-- archive
-- recent_posts
+# - tag
+# - tagcloud
+# - archive
+# - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -76,17 +76,17 @@ resume:
   location:
     # - key: address
     #   value: Your Address
-    # - key: postalCode
-    #   value: '0123654'
-    # - key: city
-    #   value: Your City
-    # - key: region
-    #   value: State/Region
-    # - key: countryCode
-    #   value: US
+    - key: postalCode
+      value: '510000'
+    - key: city
+      value: GuangZhou
+    - key: region
+      value: GuangDong
+    - key: countryCode
+      value: CN
   contact:
-    # - icon: fa-external-link
-    #   text: your-website.com
+    - icon: fa-external-link
+      text: https://kenleungsq.github.io
     - icon: fa-envelope
       text: kenliangsq@foxmail.com
     # - icon: fa-phone-square
@@ -98,8 +98,7 @@ resume:
     # - icon: fa-github
     #   text: your-github
     #   link: https://github.com/
-  overview: '1、 RPA:UiPath, UiPath Orchestrator, Power Platform(Power automate, Power Apps, SharePoint), pyautogui, playwrig
-ht
+  overview: '1、 RPA:UiPath, UiPath Orchestrator, Power Platform(Power automate, Power Apps, SharePoint), pyautogui, playwright
 2、 Data related:Excel, PowerBI, Python (基础语法、numpy、pandas)
 3、 Program Language:C#, HTML, CSS, JS, VBA, Python
 4、 Website Development:Django, Vue, nodejs
