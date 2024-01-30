@@ -75,8 +75,8 @@ resume:
   location:
     # - key: address
     #   value: Your Address
-    - key: postalCode
-      value: '510000'
+    # - key: postalCode
+    #   value: '510000'
     - key: city
       value: GuangZhou
     - key: region
@@ -98,13 +98,13 @@ resume:
     #   text: your-github
     #   link: https://github.com/
   overview: '1、 RPA:UiPath, UiPath Orchestrator, Power Platform(Power automate, Power Apps, SharePoint), pyautogui, playwright
-2、 Data related:Excel, PowerBI, Python (基础语法、numpy、pandas)
-3、 Program Language:C#, HTML, CSS, JS, VBA, Python
-4、 Website Development:Django, Vue, nodejs
-5、 Database:MySQL, SQL Server, Access
-6、 System:Windows, Linux 基本命令及操作
-7、 Container tech:docker
-8、 Server: Nginx'
+<br>2、 Data related:Excel, PowerBI, Python (基础语法、numpy、pandas)
+<br>3、 Program Language:C#, HTML, CSS, JS, VBA, Python
+<br>4、 Website Development:Django, Vue, nodejs
+<br>5、 Database:MySQL, SQL Server, Access
+<br>6、 System:Windows, Linux 基本命令及操作
+<br>7、 Container tech:docker
+<br>8、 Server: Nginx'
   #   level: beginner, intermediate, advanced, master
   skills:
     - title: UiPath
@@ -122,13 +122,12 @@ resume:
       company: 广东凯捷商业数据处理服务有限公司 
       # website: Content
       description: '1, Developed diffirrent kinds of RPA by UiPath, Power Automate, Kryon, VBA based on business requirement.
-      2, Developed an EVM website based on Django and VUE2.
-      3, Worked as solution architect for differrent projects.
-      4, Prepared different kinds of project doucments such as PDD and SDD.
-      5, Coached new joiners of different RPA tools and comply with code standard.
-      6, Responsed as a technical SPOC for an engagement. Maintained a SharePoint List and tens of Power Automate
-flows.
-7, Conducted end to end project serveice to customer.
+      <br>2, Developed an EVM website based on Django and VUE2.
+      <br>3, Worked as solution architect for differrent projects.
+      <br>4, Prepared different kinds of project doucments such as PDD and SDD.
+      <br>5, Coached new joiners of different RPA tools and comply with code standard.
+      <br>6, Responsed as a technical SPOC for an engagement. Maintained a SharePoint List and tens of Power Automate flows.
+<br>7, Conducted end to end project serveice to customer.
 '
       hilights: [
         'Promopted from Process Associate to Senior Associate(3 in 20)',
@@ -142,12 +141,12 @@ flows.
       description: "1, HONEDU is the leading company of providing integrated services in K12 education. It has over 10 branches and 300
 employees in different region. The company serves hundreds of thousands of students in the country keeping them
 efficient and save in school.
-2, Managed kinds of data in BaoKaoDaXue website. There are more than 2700 colleges,1300 majors as well as
+<br>2, Managed kinds of data in BaoKaoDaXue website. There are more than 2700 colleges,1300 majors as well as
 millions
 of student recruitment plan. Collected the data from different source.Cleaned the raw data.Sort out the data. Uploaded
 data to go live.
-3, Exported data from database depend on department's needs.
-4, Created excel formula/vba/daily process automation depend on operational needs."
+<br>3, Exported data from database depend on department's needs.
+<br>4, Created excel formula/vba/daily process automation depend on operational needs."
       hilights: [
         'Took over all works in ten days before the resignment of previous owner. Ensured the data providing in the busy
 season',
@@ -160,8 +159,8 @@ improved effectively'
       # website: website.com
       description: '1, Conducted the CRS&FATCA checking for new to bank customer. Made sure all the documents on file before account
 opening.
-2, Provided CRS&FATCA training for other staff within the department.
-3, Guiding IT staff when building up the automation during streamline project.'
+<br>2, Provided CRS&FATCA training for other staff within the department.
+<br>3, Guiding IT staff when building up the automation during streamline project.'
       hilights: [
         'Best Performer (5% of the departement)',
         'Streamline Star',
@@ -182,17 +181,17 @@ opening.
   projects:
   - title: Resource and Project management webiste devlopment based on Python&VUE2&MySQL
     description: '1. The foudation of the system is earned value concept
-2. Perform development of a complete function both backend and frontend
-3. perform part database work such of foreign key design and table creation
-4.  perform part of the deployment work such as IIS, nginx, unicom'
+<br>2. Perform development of a complete function both backend and frontend
+<br>3. perform part database work such of foreign key design and table creation
+<br>4.  perform part of the deployment work such as IIS, nginx, unicom'
     duration: Apr 2023 - Oct 2023
     contribution: Developer
   - title: SPOC of a famous express industry
     description: '1, Maintain different Power Automate flows(10+)
-2, Maintain a SharePoint list(tens of thousands rows of data)
-3, Estimate the feasibility of new requirement from customer
-4, Develop new Power Automate flows
-5, Regular meeting and Customer Care'
+<br>2, Maintain a SharePoint list(tens of thousands rows of data)
+<br>3, Estimate the feasibility of new requirement from customer
+<br>4, Develop new Power Automate flows
+<br>5, Regular meeting and Customer Care'
     duration: Mar 2023 - Oct 2023
     contribution: Solution Architect and Developer
 # Langguages Known 
